@@ -28,7 +28,7 @@
     height: auto  ;
     display: grid;
     grid-template: 50px 550px 50px / 0.2fr 0.2fr 0.2fr;
-    gap: 5px;
+    /* gap: 5px; */
   }
 
       .header {
@@ -47,8 +47,8 @@
         /* Horizontal */
         justify-items: center;
         /* Vertical */
-        align-items: end;
-        padding-left: 50px;
+        align-items: center;
+        padding: 50px;
       
       }
       .contenido2 {
@@ -58,7 +58,8 @@
         /* Horizontal */
         justify-items: center;
         /* Vertical */
-        align-items: end;
+        align-items: center;
+        padding: 50px;
       
       }
       .contenido3 {
@@ -68,7 +69,8 @@
         /* Horizontal */
         justify-items: center;
         /* Vertical */
-        align-items: end;
+        align-items: center;
+        padding: 50px;;
       
       }
       .contenido4 {
@@ -78,7 +80,8 @@
         /* Horizontal */
         justify-items: center;
         /* Vertical */
-        align-items: end;
+        align-items: center;
+        padding-top: 50px;
       
       }
             
@@ -103,18 +106,35 @@
       }
       #profiles {
         position: relative;
-        left: 490px;
+        left: 450px;
       }
       #profiles2 {
         position: relative;
-        left: -490px;
+        left: -530px;
       }
-      select{
-        position: relative;
-        top: 200px;
+      select ,#cr{
+        /* position: relative;
+        top: 200px; */
         padding: 20px 50px;
-        border: 2px solid black;
-        background: #F3D222;
+        border: 2px solid rgb(0, 0, 0);
+        color: white;
+        background: #0432AA;
      border-radius: 10px;
     text-align: center;
+    width: 300px;
+      }
+      #cr:hover {
+        background: #faffb4;
+        color: #000;
+      }
+      select:hover {
+        background: #faffb4;
+        color: #000;
+      }
+      #ima1{
+        position: relative;
+        left: 95px; 
+      }
+      #pp{
+        color: white;
       }
