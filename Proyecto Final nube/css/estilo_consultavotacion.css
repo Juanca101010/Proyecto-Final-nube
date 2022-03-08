@@ -103,10 +103,10 @@ table,th,td {
   padding: 20px 10px;
   text-align: center;
  }
- tr {
+ td {
       cursor: pointer;
     }
-tr:hover {
+.fila:hover {
     background: #c2c2c2;
     color: #000080;  
 }
