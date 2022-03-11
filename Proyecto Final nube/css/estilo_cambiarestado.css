@@ -72,27 +72,6 @@
     left: 150px; top: 200px;
 }
 
-#menu>li{
-    float: left;
-    text-align:center
-    
-  }
-  #menu>li>ul{
-    display: none;
-    position: relative;
-    left: 490px;
-  }
-  #menu>li:hover>ul {
-    display:block;
-  }
-  #profiles {
-    position: relative;
-    left: 490px;
-  }
-  #profiles2 {
-    position: relative;
-    left: -490px;
-  }
 
   table {
       margin: auto;

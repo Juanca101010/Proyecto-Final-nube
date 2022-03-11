@@ -72,27 +72,7 @@
     left: 100px; top: 200px;
 }
 
-#menu>li{
-    float: left;
-    text-align:center
-    
-  }
-  #menu>li>ul{
-    display: none;
-    position: relative;
-    left: 390px;
-  }
-  #menu>li:hover>ul {
-    display:block;
-  }
-  #profiles {
-    position: relative;
-    left: 380px;
-  }
-  #profiles2 {
-    position: relative;
-    left: -520px;
-  }
+
 #cr {
     background: #F3D222;
     border-radius: 10px;
