@@ -101,12 +101,20 @@ table,th,td {
     color: #000080;  
 }
 h3 { display:inline; }
-#cr {
-  background: #F3D222;
-  border-radius: 10px;
-  height: 40px;
-  width: 140px;
-  font-size: x-small;
+.cr{
+  text-decoration:none;
+font-weight: 600;
+font-size: 25px;
+color:#000000;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:40px;
+background-color: F3D222;
+border-color: #000000;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
 
 }
 select{
@@ -115,4 +123,18 @@ select{
   border-radius: 10px;
   height: 40px;
   width: 140px;
+}
+.flexsearch--input {
+  padding: 5px;
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 30px;
+	border-color: rgb(0, 0, 0);
+  border-radius: 35px;
+  border-style: solid;
+  margin-top: 15px;
+  color: #333;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }

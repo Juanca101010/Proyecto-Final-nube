@@ -73,12 +73,20 @@
 }
 
 
-#cr {
-    background: #F3D222;
-    border-radius: 10px;
-    height: 40px;
-    width: 120px;
-    text-size-adjust: 20;
+.cr{
+  text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#000000;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:40px;
+background-color: F3D222;
+border-color: #000000;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
 
 }
 table {

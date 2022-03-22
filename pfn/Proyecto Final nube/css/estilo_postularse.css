@@ -73,11 +73,20 @@
 }
 
 
-#cr {
-    background: #F3D222;
-    border-radius: 10px;
-    height: 50px;
-    width: 150px;
+.cr{
+  text-decoration:none;
+font-weight: 600;
+font-size: 25px;
+color:#000000;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:40px;
+background-color: F3D222;
+border-color: #000000;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
 
 }
 input {
